@@ -1,9 +1,22 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using AdministrationArticles.Data;
+using AdministrationArticles.Models;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<AdministrationArticlesContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AdministrationArticlesContext") ?? throw new InvalidOperationException("Connection string 'AdministrationArticlesContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -22,6 +35,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Articles}/{action=Index}/{id?}");
 
 app.Run();
