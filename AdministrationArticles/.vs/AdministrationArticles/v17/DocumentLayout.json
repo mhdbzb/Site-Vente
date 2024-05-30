@@ -47,12 +47,12 @@
       "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Migrations\\20240530123135_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AdministrationArticles\\Migrations\\20240530123135_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\administrationarticles\\administrationarticles\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\administrationarticles\\administrationarticles\\migrations\\20240530123135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\migrations\\20240530123135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,8 +74,7 @@
               "RelativeToolTip": "AdministrationArticles\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACAAAAAAAAAAAAAkwC4AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:50:41.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:50:41.972Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "AdministrationArticles\\Views\\Articles\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:49:06.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:49:06.472Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "AdministrationArticles\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:43:39.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:43:39.525Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "AdministrationArticles\\Views\\Articles\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:43:02.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:43:02.05Z"
             },
             {
               "$type": "Document",
@@ -126,8 +122,7 @@
               "RelativeToolTip": "AdministrationArticles\\Models\\SeedData.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwCkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:37:37.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:37:37.525Z"
             },
             {
               "$type": "Document",
@@ -139,12 +134,11 @@
               "RelativeToolTip": "AdministrationArticles\\Views\\Articles\\Create.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:35:18.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:35:18.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\appsettings.json",
               "RelativeDocumentMoniker": "AdministrationArticles\\appsettings.json",
@@ -152,8 +146,7 @@
               "RelativeToolTip": "AdministrationArticles\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T12:24:52.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:24:52.553Z"
             },
             {
               "$type": "Document",
@@ -163,7 +156,7 @@
               "RelativeDocumentMoniker": "AdministrationArticles\\Models\\Article.cs",
               "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Models\\Article.cs",
               "RelativeToolTip": "AdministrationArticles\\Models\\Article.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAwAwAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T12:15:18.782Z",
               "EditorCaption": ""
@@ -178,8 +171,7 @@
               "RelativeToolTip": "AdministrationArticles\\Views\\Articles\\Delete.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:56:18.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:56:18.602Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "AdministrationArticles\\Data\\AdministrationArticlesContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:24:24.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:24:24.106Z"
             },
             {
               "$type": "Document",
@@ -204,12 +195,11 @@
               "RelativeToolTip": "AdministrationArticles\\Controllers\\ArticlesController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:23:48.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:23:48.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "20240530123135_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Migrations\\20240530123135_InitialCreate.cs",
               "RelativeDocumentMoniker": "AdministrationArticles\\Migrations\\20240530123135_InitialCreate.cs",
@@ -217,8 +207,7 @@
               "RelativeToolTip": "AdministrationArticles\\Migrations\\20240530123135_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:31:35.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:31:35.703Z"
             },
             {
               "$type": "Document",
@@ -230,8 +219,7 @@
               "RelativeToolTip": "AdministrationArticles\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:33:52.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T12:33:52.453Z"
             }
           ]
         }
