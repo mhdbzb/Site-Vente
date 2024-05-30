@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\administrationarticles\\administrationarticles\\views\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\views\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\administrationarticles\\administrationarticles\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\views\\articles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\administrationarticles\\administrationarticles\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\administrationarticles\\administrationarticles\\views\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|solutionrelative:administrationarticles\\views\\articles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB433678-8274-42C5-9585-31F29AA642DC}|AdministrationArticles\\AdministrationArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\administrationarticles\\administrationarticles\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -62,11 +62,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AdministrationArticles\\Views\\Shared\\_Layout.cshtml",
@@ -74,31 +78,21 @@
               "RelativeToolTip": "AdministrationArticles\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAACAAAAAAAAAAAAAkwC4AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:50:41.972Z"
+              "WhenOpened": "2024-05-30T12:50:41.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Views\\Articles\\Edit.cshtml",
               "RelativeDocumentMoniker": "AdministrationArticles\\Views\\Articles\\Edit.cshtml",
               "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Views\\Articles\\Edit.cshtml",
               "RelativeToolTip": "AdministrationArticles\\Views\\Articles\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:49:06.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Program.cs",
-              "RelativeDocumentMoniker": "AdministrationArticles\\Program.cs",
-              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Program.cs",
-              "RelativeToolTip": "AdministrationArticles\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:43:39.525Z"
+              "WhenOpened": "2024-05-30T12:49:06.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -126,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Views\\Articles\\Create.cshtml",
               "RelativeDocumentMoniker": "AdministrationArticles\\Views\\Articles\\Create.cshtml",
@@ -134,7 +128,33 @@
               "RelativeToolTip": "AdministrationArticles\\Views\\Articles\\Create.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-30T12:35:18.788Z"
+              "WhenOpened": "2024-05-30T12:35:18.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "AdministrationArticles\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Models\\Article.cs",
+              "RelativeToolTip": "AdministrationArticles\\Models\\Article.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwA8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:15:18.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Program.cs",
+              "RelativeDocumentMoniker": "AdministrationArticles\\Program.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Program.cs",
+              "RelativeToolTip": "AdministrationArticles\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:43:39.525Z"
             },
             {
               "$type": "Document",
@@ -150,20 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Article.cs",
-              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Models\\Article.cs",
-              "RelativeDocumentMoniker": "AdministrationArticles\\Models\\Article.cs",
-              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Models\\Article.cs",
-              "RelativeToolTip": "AdministrationArticles\\Models\\Article.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T12:15:18.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AdministrationArticles\\AdministrationArticles\\Views\\Articles\\Delete.cshtml",
               "RelativeDocumentMoniker": "AdministrationArticles\\Views\\Articles\\Delete.cshtml",

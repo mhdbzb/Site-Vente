@@ -6,6 +6,9 @@ namespace AdministrationArticles.Models
     public class Article
     {
         public int Id { get; set; }
+        [RegularExpression(@"^[A-Z]+[a-zA-Z\s]*$")]
+        [Required]
+        [StringLength(30)]
         public string Nom { get; set; }
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18, 2)")]
