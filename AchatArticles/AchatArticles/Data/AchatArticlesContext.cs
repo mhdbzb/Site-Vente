@@ -25,7 +25,7 @@ namespace AchatArticles.Data
 
         public DbSet<Panier> Paniers { get; set; }
 
-        public DbSet<ArticlePanier> ArticlesPaniers { get; set; }
+       //public DbSet<ArticlePanier> ArticlesPaniers { get; set; }
         public DbSet<Historique> Historiques { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

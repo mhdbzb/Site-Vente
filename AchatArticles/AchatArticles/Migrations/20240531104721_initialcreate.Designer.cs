@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AchatArticles.Migrations
 {
     [DbContext(typeof(AchatArticlesContext))]
-    [Migration("20240531072428_correctiontables")]
-    partial class correctiontables
+    [Migration("20240531104721_initialcreate")]
+    partial class initialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,29 +49,6 @@ namespace AchatArticles.Migrations
                     b.ToTable("Articles");
                 });
 
-            modelBuilder.Entity("AchatArticles.Models.ArticlePanier", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ArticleId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PanierId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ArticleId");
-
-                    b.HasIndex("PanierId");
-
-                    b.ToTable("ArticlesPaniers");
-                });
-
             modelBuilder.Entity("AchatArticles.Models.Historique", b =>
                 {
                     b.Property<int>("Id")
@@ -105,7 +82,6 @@ namespace AchatArticles.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Nom")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -126,25 +102,6 @@ namespace AchatArticles.Migrations
                     b.HasIndex("PaniersId");
 
                     b.ToTable("ArticlePanier");
-                });
-
-            modelBuilder.Entity("AchatArticles.Models.ArticlePanier", b =>
-                {
-                    b.HasOne("AchatArticles.Models.Article", "Article")
-                        .WithMany()
-                        .HasForeignKey("ArticleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AchatArticles.Models.Panier", "Panier")
-                        .WithMany()
-                        .HasForeignKey("PanierId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Article");
-
-                    b.Navigation("Panier");
                 });
 
             modelBuilder.Entity("AchatArticles.Models.Historique", b =>

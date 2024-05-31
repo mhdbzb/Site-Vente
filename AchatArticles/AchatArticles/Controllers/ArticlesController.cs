@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using AchatArticles.Data;
+﻿using AchatArticles.Data;
 using AchatArticles.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace AchatArticles.Controllers
 {
     public class ArticlesController : Controller
     {
         private readonly AchatArticlesContext _context;
+        public Panier panier = new Panier();
 
         public ArticlesController(AchatArticlesContext context)
         {
@@ -153,5 +149,39 @@ namespace AchatArticles.Controllers
         {
             return _context.Articles.Any(e => e.Id == id);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> NouveauPanier(Panier panier)
+        {
+            if (ModelState.IsValid)
+            {
+                panier.Nom = Environment.MachineName;
+                panier.Articles = new List<Article>();
+                _context.Add(panier);
+                await _context.SaveChangesAsync();
+                return View(Index);
+            }
+            return View(Index);
+        }
+
+
+        public async Task<IActionResult> AjoutPanier(int idArticle)
+        {
+            var article = await _context.Articles.FindAsync(idArticle);
+            if (panier.Articles == null)
+            {
+                NouveauPanier(panier);
+            }
+
+            if (article != null)
+            {
+                panier.Articles.Add(article);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

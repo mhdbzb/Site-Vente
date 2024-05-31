@@ -12,11 +12,11 @@ namespace AdministrationArticles.Models
                     DbContextOptions<AdministrationArticlesContext>>()))
             {
                 // Look for any Articles.
-                if (context.Article.Any())
+                if (context.Articles.Any())
                 {
                     return;   // DB has been seeded
                 }
-                context.Article.AddRange(
+                context.Articles.AddRange(
                     new Article
                     {
                         Nom = "Téléphone",

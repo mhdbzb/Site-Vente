@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mehda\Documents\GitHub\Site-Vente\AchatArticles\AchatArticles
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mehda/Documents/GitHub/Site-Vente/AchatArticles/AchatArticles/Views/Articles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mehda/Documents/GitHub/Site-Vente/AchatArticles/AchatArticles/Views/Articles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/mehda/Documents/GitHub/Site-Vente/AchatArticles/AchatArticles/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehda/Documents/GitHub/Site-Vente/AchatArticles/AchatArticles/Views/Paniers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFuaWVyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mehda/Documents/GitHub/Site-Vente/AchatArticles/AchatArticles/Views/Shared/Error.cshtml]

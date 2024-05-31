@@ -22,7 +22,7 @@ namespace AdministrationArticles.Controllers
         // GET: Articles
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Article.ToListAsync());
+            return View(await _context.Articles.ToListAsync());
         }
 
         // GET: Articles/Details/5
@@ -33,7 +33,7 @@ namespace AdministrationArticles.Controllers
                 return NotFound();
             }
 
-            var article = await _context.Article
+            var article = await _context.Articles
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (article == null)
             {
@@ -73,7 +73,7 @@ namespace AdministrationArticles.Controllers
                 return NotFound();
             }
 
-            var article = await _context.Article.FindAsync(id);
+            var article = await _context.Articles.FindAsync(id);
             if (article == null)
             {
                 return NotFound();
@@ -124,7 +124,7 @@ namespace AdministrationArticles.Controllers
                 return NotFound();
             }
 
-            var article = await _context.Article
+            var article = await _context.Articles
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (article == null)
             {
@@ -139,10 +139,10 @@ namespace AdministrationArticles.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var article = await _context.Article.FindAsync(id);
+            var article = await _context.Articles.FindAsync(id);
             if (article != null)
             {
-                _context.Article.Remove(article);
+                _context.Articles.Remove(article);
             }
 
             await _context.SaveChangesAsync();
@@ -151,7 +151,7 @@ namespace AdministrationArticles.Controllers
 
         private bool ArticleExists(int id)
         {
-            return _context.Article.Any(e => e.Id == id);
+            return _context.Articles.Any(e => e.Id == id);
         }
     }
 }

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace AchatArticles.Migrations
 {
     /// <inheritdoc />
-    public partial class Ajout : Migration
+    public partial class initialcreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -32,7 +32,7 @@ namespace AchatArticles.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nom = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Nom = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -64,32 +64,6 @@ namespace AchatArticles.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ArticlesPaniers",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ArticleId = table.Column<int>(type: "int", nullable: false),
-                    PanierId = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_ArticlesPaniers", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_ArticlesPaniers_Articles_ArticleId",
-                        column: x => x.ArticleId,
-                        principalTable: "Articles",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_ArticlesPaniers_Paniers_PanierId",
-                        column: x => x.PanierId,
-                        principalTable: "Paniers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Historiques",
                 columns: table => new
                 {
@@ -115,16 +89,6 @@ namespace AchatArticles.Migrations
                 column: "PaniersId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ArticlesPaniers_ArticleId",
-                table: "ArticlesPaniers",
-                column: "ArticleId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ArticlesPaniers_PanierId",
-                table: "ArticlesPaniers",
-                column: "PanierId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Historiques_PanierId",
                 table: "Historiques",
                 column: "PanierId");
@@ -135,9 +99,6 @@ namespace AchatArticles.Migrations
         {
             migrationBuilder.DropTable(
                 name: "ArticlePanier");
-
-            migrationBuilder.DropTable(
-                name: "ArticlesPaniers");
 
             migrationBuilder.DropTable(
                 name: "Historiques");
