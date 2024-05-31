@@ -1,0 +1,218 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Migrations\\20240531072428_correctiontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AchatArticles\\Migrations\\20240531072428_correctiontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Migrations\\20240531072200_Ajout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AchatArticles\\Migrations\\20240531072200_Ajout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\data\\achatarticlescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\data\\achatarticlescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\models\\articlepanier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\models\\articlepanier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\models\\historique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\models\\historique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\models\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\models\\panier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|c:\\users\\mehda\\documents\\github\\site-vente\\achatarticles\\achatarticles\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{31AD298D-513E-4D3D-A8FB-BBAD34A7CA7F}|AchatArticles\\AchatArticles.csproj|solutionrelative:achatarticles\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240531072428_correctiontables.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Migrations\\20240531072428_correctiontables.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Migrations\\20240531072428_correctiontables.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Migrations\\20240531072428_correctiontables.cs",
+              "RelativeToolTip": "AchatArticles\\Migrations\\20240531072428_correctiontables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:24:28.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240531072200_Ajout.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Migrations\\20240531072200_Ajout.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Migrations\\20240531072200_Ajout.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Migrations\\20240531072200_Ajout.cs",
+              "RelativeToolTip": "AchatArticles\\Migrations\\20240531072200_Ajout.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T07:22:00.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Program.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Program.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Program.cs",
+              "RelativeToolTip": "AchatArticles\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:03:01.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AchatArticlesContext.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Data\\AchatArticlesContext.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Data\\AchatArticlesContext.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Data\\AchatArticlesContext.cs",
+              "RelativeToolTip": "AchatArticles\\Data\\AchatArticlesContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wA4AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:29:12.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\Article.cs",
+              "RelativeToolTip": "AchatArticles\\Models\\Article.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:28:30.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticlePanier.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\ArticlePanier.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Models\\ArticlePanier.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\ArticlePanier.cs",
+              "RelativeToolTip": "AchatArticles\\Models\\ArticlePanier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:28:06.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Panier.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\Panier.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Models\\Panier.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\Panier.cs",
+              "RelativeToolTip": "AchatArticles\\Models\\Panier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:28:04.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Historique.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\Historique.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Models\\Historique.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\Historique.cs",
+              "RelativeToolTip": "AchatArticles\\Models\\Historique.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:25:14.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\appsettings.json",
+              "RelativeDocumentMoniker": "AchatArticles\\appsettings.json",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\appsettings.json",
+              "RelativeToolTip": "AchatArticles\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T14:23:05.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "AchatArticles\\Controllers\\ArticlesController.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAgwJkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:39:49.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AchatArticles\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AchatArticles\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:56:06.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Views\\Articles\\Index.cshtml",
+              "RelativeDocumentMoniker": "AchatArticles\\Views\\Articles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehda\\Documents\\GitHub\\Site-Vente\\AchatArticles\\AchatArticles\\Views\\Articles\\Index.cshtml",
+              "RelativeToolTip": "AchatArticles\\Views\\Articles\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T14:41:29.184Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
