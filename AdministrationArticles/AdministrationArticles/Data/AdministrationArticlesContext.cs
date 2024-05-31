@@ -14,6 +14,9 @@ namespace AdministrationArticles.Data
         {
         }
 
-        public DbSet<AdministrationArticles.Models.Article> Article { get; set; } = default!;
+        public DbSet<Article> Article { get; set; }
+
+  
+
     }
 }
